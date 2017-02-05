@@ -1,0 +1,158 @@
+.landing {
+    height: 100%;
+    width: 100%;
+    background: url("http://i.stack.imgur.com/JICXS.jpg");
+    position: relative;
+}
+
+.landingTitle {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    
+    margin-top: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.landingTitle p {
+    font-size: 80px;
+    width: 500px;
+    color:white;
+}
+
+.landingTitle div {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+    .landingTitle p {
+        font-size: 60px;
+        width: 350px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .landingTitle p {
+        font-size: 40px;
+        width: 250px;
+    }
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.profilePicture {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+#greetings {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+}
+
+#aboutMe {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+#content {
+    background-image: url("http://kimgarst.com/wp-content/uploads/headway/background-uploads/tileable-retro-squares-001805-basic-white.jpg");
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: calc(100% - 110px);
+    display: inline-block;
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+footer {
+    padding: 20px;
+    background-color: #101010;
+    color: white;
+}
+
+.copyright {
+    color: #9d9d9d;
+}
+
+.articleWrapper {
+    padding: 20px
+}
+
+.projectTitle {
+    font-family: 'Varela Round', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.projectImage {
+    width: 90%;
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+}
+
+.aboutProject {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.project {
+    margin-bottom: 30px;
+    display: inline-block;
+}
+
+.projectIcon {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.projectIconWrapper {
+    margin: auto;
+    display: block;
+    width: 100px;
+    padding-top: 20px;
+}
+
+#contactMeContent {
+    margin: 20px;
+}
+
+.aboutContactMe {
+    font-size: 20px;
+    margin: 10px;
+}
+
+#inputMessage {
+    resize: none;
+}
+
+#navbarIcon {
+    height: 20px;
+}
+
+.randomText {
+    color: rgba(136, 154, 186, 0.4);
+    font-family: 'Varela Round', sans-serif;
+    position: absolute;
+    font-size: 20px;
+    opacity: 0;
+}
